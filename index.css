@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1ch;
+  background-color: #f3f3f3;
+  font-family: "Anta", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 1ch;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 1ch;
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid black;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+th {
+  font-weight: 900px;
+  color: white;
+  background-color: black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: grey;
+}
